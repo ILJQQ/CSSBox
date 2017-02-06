@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/*标准盒模型*/
+.shoesBox{
+    width: 100px;
+    height: 100px;
+    padding:10px;
+    background-color: aqua;
+    border:5px solid #999;
+}
+.shoes{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    overflow-y: scroll;
+}
+
+.bag{
+    margin:20px;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    padding:10px;
+}
+/*怪异盒模型*/
+.shoesBox1{
+    margin:20px;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    padding:10px;
+    background-color: aqua;
+    border:5px solid #999;
+}
+.shoes1{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.shoes2{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin:0 auto;
+}
+
+.shoesBox2{
+    margin:20px;
+    margin-left: 100px;
+    width: 120px;
+    height: 120px;
+    padding:10px;
+    background-color: aqua;
+    border:5px solid #999;
+    box-sizing: border-box;
+
+}
+
+.shoes3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin:0 auto;
+}
+
+.shoesBox3{
+    margin:20px;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+    padding:10px;
+    background-color: aqua;
+    border:5px solid #999;
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,72 @@
+/*设置盒子宽度和调用box*/
+.oldbox{
+    display: -webkit-box;
+    display: -moz-box;
+    width:150px;
+}
+/*伪类*/
+.oldbox:hover{
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+}
+
+.first{
+    height: 120px;
+    width: 50px;
+    background-color: red;
+}
+
+.second{
+    height:120px;
+    width: 50px;
+    background-color: green;
+}
+
+.third{
+    height:120px;
+    width: 50px;
+    background-color: blue;
+}
+
+/*调取flex*/
+.newbox{
+    display: -webkit-flex;
+    height: 200px;
+    width: 150px;
+}
+
+.newbox:hover{
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    width: 150px;
+}
+
+.newbox:hover div{
+    width: 150px;
+    height: 40px;
+
+}
+.fir{
+    height: 120px;
+    width: 50px;
+    background-color: red;
+}
+
+.sec{
+    height:120px;
+    width: 50px;
+    background-color: green;
+}
+/*伪类*/
+.sec:hover{
+    -webkit-order: 3;
+}
+
+.thi{
+    height:120px;
+    width: 50px;
+    background-color: blue;
+}
+.thi:hover{
+    -webkit-flex: 2;
+}
